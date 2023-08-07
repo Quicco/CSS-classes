@@ -1,0 +1,77 @@
+:root {
+  /*Escrevemos variáveis cá dentro*/
+  --color-h1: #000;
+  --color-subtext: #616161;
+  --color-cta: #4d73f8;
+  --color-hover: #4d73f8;
+
+  --font-size-h1: 3rem; /*48 px*/
+  --font-size-subtitle: 1.125rem; /*18px*/
+  --font-size-nav: 0.875rem;
+
+  --font-family-h1: 'Merriweather', serif;
+  --font-family-subtitle: 'Source Sans 3', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*===========
+Typography
+============*/
+
+body {
+  font-family: var(--font-size-subtitle);
+}
+
+/*============
+Header Styling
+==============*/
+
+header {
+  /* border: 4px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-list {
+  /* background-color: magenta; */
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: var(--font-size-nav);
+  color: var(--color-subtext);
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--color-hover);
+}
+
+.cta-nav {
+  text-decoration: none;
+  border: 1px solid var(--color-hover);
+  color: var(--color-cta);
+  padding: 10px 20px;
+}
+
+/*==================
+Hero Section Styling
+==================== */
+
+/* main {
+  border: 4px solid red;
+} */
+
+/* .hero-section {
+  margin: 260px 120px;
+  max-width: 40%;
+} */
